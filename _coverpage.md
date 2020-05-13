@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](./logo.jpg ':size=100')
+![logo](./logo.jpg ':size=300')
 
 <h1>
 	<a class="anchor">
