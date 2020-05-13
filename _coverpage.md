@@ -4,13 +4,13 @@
 
 <h1>
 	<a class="anchor">
-		<span>Xuhao Luo's Homepage</span>
+		<span>Haocheng Xiao's Homepage</span>
 	</a>
 </h1>
 
-> CSE Graduate Student at UC San Diego
+> ECE Graduate Student at UW Madison
 
-- 📧: [x3luo@eng.ucsd.edu](mailto:x3luo@eng.ucsd.edu)
+- 📧: [hxiao55@wisc.edu](mailto:hxiao55@wisc.edu)
 
 [About](#about)
 
