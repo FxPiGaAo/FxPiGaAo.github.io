@@ -6,13 +6,13 @@
 Rick & Morty, South Park, Futurama, The Simpsons
 
 ## Films
-Sin City, Casino Royale, Batman: The Dark Knight, Three Idiots, Soul, The Island of Greed, [Lust, Caution](https://en.wikipedia.org/wiki/Lust,_Caution), Farewell My Concubine, Infernal Affairs
+[Sin City](https://en.wikipedia.org/wiki/Sin_City_(film)), [Casino Royale](https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)), Batman: The Dark Knight, Three Idiots, [Soul](https://en.wikipedia.org/wiki/Soul_(2020_film)), [The Island of Greed](https://en.wikipedia.org/wiki/Island_of_Greed), [Lust, Caution](https://en.wikipedia.org/wiki/Lust,_Caution), [Farewell My Concubine](https://en.wikipedia.org/wiki/Farewell_My_Concubine_(film)), [Infernal Affairs](https://en.wikipedia.org/wiki/Infernal_Affairs)
 
 ## TV Series
-TBBT
+TBBT, Sherlock
 
 ## Novel
-The Sentimental Swordsman
+[Sentimental Swordsman, Ruthless Sword](https://www.novelupdates.com/series/sentimental-swordsman-ruthless-sword/)
 
 ## Sports
 
