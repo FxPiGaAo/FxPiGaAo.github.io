@@ -6,7 +6,7 @@
 Rick & Morty, South Park, Futurama, The Simpsons
 
 ## Films
-Sin City, Casino Royale, Batman: The Dark Knight, Three Idiots, Soul, The Island of Greed, Farewell My Concubine, Infernal Affairs
+Sin City, Casino Royale, Batman: The Dark Knight, Three Idiots, Soul, The Island of Greed, [Lust, Caution](https://en.wikipedia.org/wiki/Lust,_Caution), Farewell My Concubine, Infernal Affairs
 
 ## TV Series
 TBBT
