@@ -35,7 +35,7 @@ XB to filter the search space in the cache, **SA** will be filtered. So when pro
 again, it will have a hit in the **SA**, which gives process A a stale value. Memory consistency is broken, oops!
 
 So how to fix this? The first way is to never allow two processes to share a cache. Execute a cache Flush every
-time a context switch happens. This seems to be super expensive. The second way and most popular way is always to
+time a context switch happens. This seems to be super expensive. The second and most popular way is always to
 let memory at the same **PA** be mapped into the same set. This could be achieved by only using the bits that
 don't need to be translated in **VA**, which are the page offset bits. Free lunch? Not a chance. This limits the
 cache line size to be smaller than or equal to the page size. As modern processor's capacity grows, while the
