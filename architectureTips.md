@@ -23,11 +23,14 @@ map VA to different set, and set the search pointer to this set before we know P
 TLB, we start a second round search only in this sepecific set. This greatly reduce the search space, which
 gives us better performance and energy efficiency.
 
-The latency is reduced and no two PAs could be mistakenly treated as the same in the cache. Everything is perfect now. Or is it? Here comes the cache aliasing! Hope you still remember the example given above. Two
-processes could map their own VA to the same PA, and for memory consistency, we need to update all data replicates belongs this PA when we updating the memory using VA(either XA or XB). If XA and XB is mapped to
-different sets(Set SA and Set SB), horrible things will happen! If process A first access XA, data will be
-loaded to SA. Then, processes be loads a value to XB, which will update the memory location X, might leave or
-modify the data in SB, but it won't update the data in SA! So when process A loads the value from XA again, it
+The latency is reduced and no two PAs could be mistakenly treated as the same in the cache. Everything is
+perfect now. Or is it? Here comes the cache aliasing! Hope you still remember the example given above. Two
+processes could map their own VA to the same PA, and for memory consistency, we need to update all data
+replicates belongs this PA when we updating the memory using VA (either XA or XB). If XA and XB is mapped to
+different sets (Set SA and Set SB), horrible things will happen! If process A first access XA, data will be
+loaded to SA. Then, process B loads a value to XB, which will update the memory location X, might leave or
+modify the data in SB, but it won't update the data in SA! This is because when we use the XB to filter the
+search space in the cache, SA will be filtered. So when process A loads the value from XA again, it
 will have a hit in the SA, which gives process A an stale value. Memory consistency is broken, oops!
 
 So how to fix this? The first way is to never allow two processes share a cache. Do a cache Flush every a
