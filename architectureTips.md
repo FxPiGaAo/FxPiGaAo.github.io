@@ -4,7 +4,7 @@
 A process runs in virtual address (**VA**), while the hardware executes memory access for every process in the
 Physical Address (**PA**). This is because processes could run more safely, and share space with other processes
 in **VA**. Specifically, data are stored based on their **PA** in the memory (DRAM), while each core tries to
-access memory sending only the **VA** to the load-store queue to get what they want. In oreder to access the exact
+access memory sending only the **VA** to the load-store queue to get what they want. In order to access the exact
 memory location, we need to first translate **VA** to **PA**. BTW, this type of **VA** to **PA** mapping
 information is cached in the Translation Lookaside Buffer (TLB) to accelerate this process.
 
