@@ -1,6 +1,6 @@
 # About
 
-I'm Haocheng Xiao, a first year master student in the electrical and computer engineering department at [UW Madison](https://www.engr.wisc.edu/department/electrical-computer-engineering/). Currently I work with Prof. [Joshua San Miguel](https://jsm.ece.wisc.edu/) on Network on Chip(NoC).
+I'm Haocheng Xiao, a second year master student in the electrical and computer engineering department at [UW Madison](https://www.engr.wisc.edu/department/electrical-computer-engineering/). Currently I work with Prof. [Joshua San Miguel](https://jsm.ece.wisc.edu/) on Network on Chip(NoC). I will start my Ph.D. in University of Edinburgh from Fall 2021.
 
 Contact: hxiao55@wisc.edu
 
