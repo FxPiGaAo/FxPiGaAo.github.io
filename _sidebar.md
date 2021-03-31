@@ -3,3 +3,4 @@
 * [About](/about.md)
 * [Project](/project.md)
 * [Personal](/personal.md)
+* [ArchitecureTips](/architectureTips.md)
