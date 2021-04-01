@@ -19,10 +19,11 @@ So how do we use **VA** to access cache? If want to allow multiple processes to 
 then we couldn't simply map the **VA** to cache location, right? Different processes could map one **VA** to
 different **PA**, which could lead to multiple **PA**s mapping to the same cache location! What about using
 **PA** to access the cache? Well, we might also don't want to wait the process of **VA** to **PA** translation
-to start our search. So we divide the cache into different sets. We use **VA** to memory into different sets, and
-narrow the search pointer down to this set before we get the **PA**. After **PA** is fetched from TLB, we start a
-second round search only in this sepecific set. This technique is called Virtually Indexed Physically Tagged (VIPT
-. It greatly reduces the search space, gaining better performance and energy efficiency.
+to start our search. So we first divide the cache into different sets. Then we use **VA** to map memory into
+different sets, and narrow the search pointer down to this set before we get the **PA**. After **PA** is fetched
+from TLB, we start a second round search only in this sepecific set. This technique is called
+**Virtually Indexed Physically Tagged** (VIPT). This greatly reduces the search space, gaining better performance
+and energy efficiency.
 
 The latency is reduced and no two **PA**s could be mistakenly treated as the same in the cache. Everything is
 perfect now. Or is it? Here finally comes the **VIPT cache aliasing**! Hope you still remember the example given
