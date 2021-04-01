@@ -1,3 +1,4 @@
+<span style="font-family: 'Lucida Console';">foo</span>
 # Tips on Architecture
 
 ## VIPT Cache Aliasing
