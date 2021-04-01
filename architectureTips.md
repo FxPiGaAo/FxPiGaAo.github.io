@@ -5,15 +5,15 @@ A process runs in virtual address (**VA**), while the hardware executes memory a
 Physical Address (**PA**). This is because processes could run more safely, and share space with other processes
 in **VA**. Specifically, data are stored based on their **PA** in the memory (DRAM), while each core tries to
 access memory sending only the **VA** to the load-store queue to get what they want. In order to access the exact
-memory location, we need to first translate **VA** to **PA**. BTW, this type of **VA** to **PA** mapping
-information is cached in the Translation Lookaside Buffer (TLB) to accelerate this process.
+memory location, we need to first translate **VA** to **PA**. BTW, **VA** to **PA** mapping information is cached
+in the Translation Lookaside Buffer (TLB) to accelerate this process.
 
 Here is an example of how two processes (A and B) cooperate with each other by storing and loading memory both to
-**PA** equals X. Assume the **VA** for **X** in process A is XA and in process B is XB. So when each time process
-A load a value to XA, it will update the value whose **PA** is X. When B tries to load the value from XB, it will
-get the value in **PA** of X. Everything seems to works well for now.
+**PA** equals X. Assume the **VA** for **X** in process A is XA and in process B is XB. Each time process A loads
+a value to XA, it will update the value whose **PA** is X. When B tries to load the value from XB, it will
+get the updated value, since its **PA** is also X. Everything seems to works well for now.
 
-But never forget about cache! Usually the first place to access a memory outside the core is cache, which could
+But never forget about the cache! Usually the first place to access a memory outside the core is cache, which could
 have multiple levels. When we fetch a memory from DRAM, we also prefer to put it in the cache for future reuse.
 So how do we use **VA** to access cache? If want to allow multiple processes to access the cache simultaneously,
 then we couldn't simply map the **VA** to cache location, right? Different processes could map one **VA** to
