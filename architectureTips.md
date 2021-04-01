@@ -1,11 +1,11 @@
-<span style="font-family: 'Lucida Console';">
 # Tips on Architecture
+<span style="font-family: 'Lucida Console';">
 
 ## VIPT Cache Aliasing
 One day an american student took an exam in Cambridge and he wanted to borrow an eraser. The rule is very strict,
 so the invigilator asked him to first prove that he didn't have one. Then he might start taking off his pants, or
-trousers? Not sure which word should I use now. Anyway as a noble student majoring in architecture, I am
-unwilling to see such things happen in our computer. So let's get rid of Aliasing, now!
+trousers? Not sure which word to use now. Anyway as a noble student majoring in architecture, I am
+unwilling to see such things happen, at least in our computer. So let's get rid of Aliasing, now!
 
 A process runs in virtual address (**VA**), while the hardware executes memory access for every process in the
 Physical Address (**PA**). This is because processes could run more safely, and share space with other processes
@@ -34,12 +34,13 @@ and energy efficiency.
 The latency is reduced and no two **PA**s could be mistakenly treated as the same in the cache. Everything is
 perfect now. Or is it? Here finally comes the **VIPT cache aliasing**! Hope you still remember the example given
 above. Two processes could map their own **VA** to the same **PA**, and for memory consistency, we need to update
-all data replicates belongs this **PA** when we updating the memory using **VA** (either XA or XB). If XA and XB
-is mapped to different sets (Set **SA** and Set **SB**), horrible things will happen! If process A first accesses
-XA, data will be loaded to **SA**. Then, process B loads a value to XB, which will update the memory location X,
-might leave or modify the data in **SB**, but it won't update the data in **SA**! This is because when we use the
-XB to filter the search space in the cache, **SA** will be filtered. So when process A loads the value from XA
-again, it will have a hit in the **SA**, which gives process A a stale value. Memory consistency is broken, oops!
+all data replicates belongs this **PA** when we updating the memory with one of its corresponding **VA** (either
+XA or XB). If XA and XB is mapped to different sets (Set **SA** and Set **SB**), horrible things will happen! If
+process A first accesses XA, data will be loaded to **SA**. Then, process B loads a value to XB, which will update
+the memory location X, might leave or modify the data in **SB**, but it won't update the data in **SA**! This is
+because when we use the XB to filter the search space in the cache, **SA** will be filtered. So when process A
+loads the value from XA again, it will have a hit in the **SA**, which gives process A a stale value. Memory
+consistency is broken, oops!
 
 So how to fix this? The first way is to never allow two processes to share a cache. Execute a cache Flush every
 time a context switch happens. This seems to be super expensive. The second and most popular way is always to
