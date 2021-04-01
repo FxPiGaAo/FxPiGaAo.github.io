@@ -2,10 +2,11 @@
 <span style="font-family: 'Lucida Console';">
 
 ## VIPT Cache Aliasing
-One day an american student took an exam in Cambridge and he wanted to borrow an eraser. The rule is very strict,
-so the invigilator asked him to first prove that he didn't have one. Then he might start taking off his pants, or
-trousers? Not sure which word to use now. Anyway as a noble student majoring in architecture, I am
-unwilling to see such things happen, at least in our computer. So let's get rid of Aliasing, now!
+One day an american student was taking an exam in Cambridge and wanted to borrow an eraser. The rule is very
+strict here in England, so the invigilator asked him to first prove that he didn't have one. Then he might start
+taking off his pants, or trousers? Not sure which word to use now. Anyway as a noble student majoring in
+architecture, I am unwilling to see such things happen, at least in our computer. So let's get rid of Aliasing,
+now!
 
 A process runs in virtual address (**VA**), while the hardware executes memory access for every process in the
 Physical Address (**PA**). This is because processes could run more safely, and share space with other processes
