@@ -1,4 +1,4 @@
-<span style="font-family: 'Lucida Console';">foo</span>
+<span style="font-family: 'Lucida Console';">
 # Tips on Architecture
 
 ## VIPT Cache Aliasing
@@ -49,3 +49,5 @@ those 12 least important bits representing the page offset will not change durin
 used for cache set mapping. Free lunch? Not a chance. This limits the cache line size to be smaller than or equal
 to the page size. As modern processor's capacity grows, while the page size stays the same, it forces the cache
 associativity to grow, which is also expensive (cache associativity * cache line size = cache capacity).
+
+</span>
