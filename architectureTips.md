@@ -53,7 +53,7 @@ value. Memory consistency is broken, oops!
 
 So how to fix this? The first way is to never allow two processes to share a cache. This method actually could
 fix all aliasing problem, since if all people are speaking american English, that student might never have that
-precious experience. But it could be expensive to executw a cache Flush every time a context switch happens.The
+precious experience. But it could be expensive to execute a cache Flush every time a context switch happens.The
 second and most popular way is always to let memory at the same **PA** be mapped into the same set. This could be
 achieved by only using those bits that don't need to be translated in **VA**. Since we usually take 4KB as the mapping granularity, those 12 least important bits representing the page offset will not change during the
 translation, and could be used for cache set mapping. Free lunch? Not a chance. This limits the cache line size to
