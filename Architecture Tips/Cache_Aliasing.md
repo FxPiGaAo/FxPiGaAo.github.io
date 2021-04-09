@@ -1,7 +1,7 @@
-# Tips on Architecture
+
+# Cache Aliasing (VIVT, VIPT)
 <span style="font-family: 'Lucida Console';">
 
-## Cache Aliasing (VIVT, VIPT)
 One day an american student was taking an exam in Cambridge and wanted to borrow an eraser. The rule is very
 strict here in England, so the invigilator asked him to first prove that he didn't have one. Then he might start
 taking off his pants, or trousers? Not sure which word to use now. Anyway as a noble student majoring in
