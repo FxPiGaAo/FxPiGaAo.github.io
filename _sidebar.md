@@ -4,4 +4,4 @@
 * [Project](/project.md)
 * [Personal](/personal.md)
 * ArchitecureTips
-    *[Cache Aliasing](/Architecture Tips/Cache_Aliasing.md)
+    * [Cache Aliasing](/ArchitectureTips/Cache_Aliasing.md)
