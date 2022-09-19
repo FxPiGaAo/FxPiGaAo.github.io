@@ -1,8 +1,8 @@
 # About
 
-I'm Haocheng Xiao, a second year master student in the electrical and computer engineering department at [UW Madison](https://www.engr.wisc.edu/department/electrical-computer-engineering/). Currently I work with Prof. [Joshua San Miguel](https://jsm.ece.wisc.edu/) on Network on Chip(NoC). I will start my Ph.D. in University of Edinburgh from Fall 2021.
+I'm Haocheng Xiao, a PHD student in the University of Edinburgh started from Fall 2021 on computer architecture & hardware security. I am currently supervised by Dr. [Sam Ainsworth](https://homepages.inf.ed.ac.uk/sainswo2/) and Prof. [Nigel Topham](https://homepages.inf.ed.ac.uk/npt/). I was also co-advised by Prof. [Vijay Nagarajan](https://homepages.inf.ed.ac.uk/vnagaraj/). During my master in the electrical and computer engineering department at [UW Madison](https://www.engr.wisc.edu/department/electrical-computer-engineering/), I worked with Prof. [Joshua San Miguel](https://jsm.ece.wisc.edu/) on Network on Chip(NoC).
 
-Contact: hxiao55@wisc.edu
+Contact: haocheng.xiao@ed.ac.uk
 
 <p>
   My
@@ -10,6 +10,10 @@ Contact: hxiao55@wisc.edu
 </p>
 
 ## Education
+
+- **Ph.D.**  
+ *Aug. 2021 - ASAP*    
+University of Edinburgh
 
 - **M.S. in Electrical and Computer Engineering**  
  *Sep. 2019 - May. 2021 (expected)*    
