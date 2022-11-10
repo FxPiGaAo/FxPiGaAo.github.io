@@ -16,7 +16,7 @@ Contact: haocheng.xiao@ed.ac.uk
 University of Edinburgh
 
 - **M.S. in Electrical and Computer Engineering**  
- *Sep. 2019 - May. 2021 (expected)*    
+ *Sep. 2019 - May. 2021*    
 University of Wisconsin, Madison
 
 - **B.S. in Applied Physics**  
