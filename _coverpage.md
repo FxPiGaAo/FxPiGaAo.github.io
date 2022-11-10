@@ -8,9 +8,9 @@
 	</a>
 </h1>
 
-> ECE Graduate Student at UW Madison
+> 2nd year Ph student in University of Edinburgh
 
-- 📧: [hxiao55@wisc.edu](mailto:hxiao55@wisc.edu)
+- 📧: [haocheng.xiao@ed.ac.uk](mailto:haocheng.xiao@ed.ac.uk)
 
 [About](#about)
 
