@@ -27,4 +27,4 @@ University of Science and Technology of China ([USTC](https://en.ustc.edu.cn))
 
  **Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers**  
  *Haocheng Xiao*, Sam Ainsworth  
- ***ASPLOS 2023 Distinguished Paper Awards*** [[Paper]](https://arxiv.org/abs/2211.14647)[[Code]](https://github.com/FxPiGaAo/Hacky-Racer)[[Lightning Talk]](https://www.youtube.com/watch?v=-wnKQDqeJfA)[[Full Talk]](https://www.youtube.com/watch?v=aQrIN2Hx-sU&t=8s)
+ ***ASPLOS 2023 Distinguished Paper Awards*** ***Micro Top Picks 2024 Honorable Mention*** [[Paper]](https://arxiv.org/abs/2211.14647)[[Code]](https://github.com/FxPiGaAo/Hacky-Racer)[[Lightning Talk]](https://www.youtube.com/watch?v=-wnKQDqeJfA)[[Full Talk]](https://www.youtube.com/watch?v=aQrIN2Hx-sU&t=8s)
