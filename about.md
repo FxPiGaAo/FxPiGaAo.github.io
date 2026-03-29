@@ -2,7 +2,7 @@
 
 I'm Haocheng Xiao, a PHD student in the University of Edinburgh started from Fall 2021. During my PHD, I worked with Dr. [Sam Ainsworth](https://homepages.inf.ed.ac.uk/sainswo2/) and Prof. [Nigel Topham](https://homepages.inf.ed.ac.uk/npt/) on side channel attacks. I was also co-advised by Prof. [Vijay Nagarajan](https://homepages.inf.ed.ac.uk/vnagaraj/). I am currently working with Dr. [Luo Mai](https://luomai.github.io/) on architecture and system design for LLM inference acceleration, specifically Cerebras. During my master in the electrical and computer engineering department at [UW Madison](https://www.engr.wisc.edu/department/electrical-computer-engineering/), I worked with Prof. [Joshua San Miguel](https://jsm.ece.wisc.edu/) on Network on Chip(NoC).
 
-Contact: haocheng.xiao@ed.ac.uk
+Contact: haocheng.xiao@ed.ac.uk / haochengxiao123@gmail.com
 
 <p>
   My

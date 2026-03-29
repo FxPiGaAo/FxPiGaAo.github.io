@@ -8,7 +8,7 @@
 	</a>
 </h1>
 
-- 📧: [haocheng.xiao@ed.ac.uk](mailto:haocheng.xiao@ed.ac.uk)
+- 📧: [haocheng.xiao@ed.ac.uk](mailto:haocheng.xiao@ed.ac.uk) / [haochengxiao123@gmail.com](mailto:haochengxiao123@gmail.com)
 
 [About](#about)
 
