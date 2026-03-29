@@ -8,8 +8,6 @@
 	</a>
 </h1>
 
-> 2nd year PhD student in University of Edinburgh
-
 - 📧: [haocheng.xiao@ed.ac.uk](mailto:haocheng.xiao@ed.ac.uk)
 
 [About](#about)
